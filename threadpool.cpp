@@ -4,6 +4,8 @@
 
 #include "threadpool.hh"
 
+using namespace std;
+
 unsigned int work::count = 0;
 
 pthread_mutex_t work::workLock = PTHREAD_MUTEX_INITIALIZER;
