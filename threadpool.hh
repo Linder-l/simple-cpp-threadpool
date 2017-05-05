@@ -10,6 +10,8 @@
 #include <pthread.h>
 #include <unistd.h>
 
+using namespace std;
+
 class work {
 public:
   work(int);
